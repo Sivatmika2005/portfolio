@@ -1,0 +1,97 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background-color: #ffffff;
+  color: #222;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+/* Header */
+header {
+  background-color: #004e9a;
+  padding: 1rem 2rem;
+  color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1000px;
+  margin: auto;
+}
+
+nav h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Section Layout */
+.section {
+  padding: 60px 20px;
+  max-width: 900px;
+  margin: auto;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+h2 {
+  color: #004e9a;
+  margin-bottom: 16px;
+  font-size: 28px;
+  border-left: 4px solid #004e9a;
+  padding-left: 10px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+/* Contact Links */
+a {
+  color: #004e9a;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #004e9a;
+  color: white;
+  font-size: 14px;
+}
